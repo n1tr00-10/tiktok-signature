@@ -21,7 +21,7 @@ def main():
     print(f"X-Gnarly: {gnarly}")
     
     # 2. X-Bogus
-    print("\n[2] Generating X-Bogus.")
+    print("\n[2] Generating X-Bogus")
     url = f"https://www.tiktok.com/api/v1/feed?{query}"
     bogus = get_X_Bogus(url, "", "")
     print(f"X-Bogus: {bogus}")
