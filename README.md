@@ -22,5 +22,4 @@ Supports SDK version **5.1.2** (build 1.0.0.316).
 ## Installation
 
 ```bash
-git clone https://github.com/tiktok-signature/tiktok-signature.git
-cd tiktok-signature
+git clone https://github.com/n1tr00-10/tiktok-signature.git
