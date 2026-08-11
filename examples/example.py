@@ -1,3 +1,7 @@
+import sys,os
+
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from x_gnarly import get_X_Gnarly
 from x_bogus import get_X_Bogus
 from x_dynosaur import get_X_Dynosaur
@@ -8,7 +12,7 @@ def main():
     user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
     
     print("=" * 50)
-    print("TikTok Signature Generator - Basic Example")
+    print("TikTok Signature Generator - Example")
     print("=" * 50)
     
     # 1. X-Gnarly
@@ -17,7 +21,7 @@ def main():
     print(f"X-Gnarly: {gnarly}")
     
     # 2. X-Bogus
-    print("\n[2] Generating X-Bogus")
+    print("\n[2] Generating X-Bogus.")
     url = f"https://www.tiktok.com/api/v1/feed?{query}"
     bogus = get_X_Bogus(url, "", "")
     print(f"X-Bogus: {bogus}")
@@ -32,4 +36,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
