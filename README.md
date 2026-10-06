@@ -10,6 +10,11 @@ Generate valid **X-Gnarly**, **X-Bogus**, and **X-Dynosaur** signatures for TikT
 
 Supports SDK version **5.1.2** (build 1.0.0.316).
 
+> **Need more than signatures?** Profiles, followers, videos, comments, live chat and search through one REST API:
+
+[![Unofficial TikTok API - dev.omar-thing.site](https://omar-thing.site/img/omar-thing-banner.png)](https://dev.omar-thing.site)
+
+
 ## Features
 
 - Generate X-Gnarly signatures with ChaCha20 encryption and dynamic round selection
